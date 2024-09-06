@@ -4,7 +4,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import dotenv_values
 
 config = {
-    **dotenv_values(".env"),
+    **dotenv_values("../.env"),
     }
 # print(config)
 openai_key = config["OPENAI_API_KEY"]

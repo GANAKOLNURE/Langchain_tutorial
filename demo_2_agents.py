@@ -9,7 +9,7 @@ from langchain_community.agent_toolkits.load_tools import load_tools
 from langchain.agents import initialize_agent
 
 config = {
-    **dotenv_values(".env"),
+    **dotenv_values("../.env"),
     }
 
 
